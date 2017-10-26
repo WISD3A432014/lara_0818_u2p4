@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+@extends('postsLayouts.master')
 
+@section('title', 'Clean Blog')
+
+
+
+@section('content')
 <head>
 
     <meta charset="utf-8">
@@ -143,7 +149,7 @@
     </div>
 
     <hr>
-
+    @endsection
     <!-- Footer -->
     <footer>
         <div class="container">
