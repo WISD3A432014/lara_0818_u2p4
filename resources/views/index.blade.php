@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-@extends('postsLayouts.master')
+@extends('layouts.master')
 
 @section('title', 'Clean Blog')
 
