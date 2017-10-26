@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
+@extends('layouts.master')
 <head>
+    @section('title', 'Clean Blog - Contact')
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -66,7 +67,7 @@
         </div>
         <!-- /.container -->
     </nav>
-
+    @section('content')
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
     <header class="intro-header" style="background-image: url('img/contact-bg.jpg')">
@@ -187,3 +188,4 @@
 </body>
 
 </html>
+@endsection

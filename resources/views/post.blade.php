@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+@extends('layouts.master')
 
+@section('title', 'Clean Blog - Sample Post')
+
+@section('content')
 <head>
 
     <meta charset="utf-8">
@@ -126,7 +130,7 @@
             </div>
         </div>
     </article>
-
+    @endsection
     <hr>
 
     <!-- Footer -->
